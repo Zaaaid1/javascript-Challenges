@@ -2,7 +2,7 @@
 
 
 function ageInDays(){
-var birthyear = prompt("what age you were born");
+var birthyear = prompt("what year you were born");
 var ageInDayss = (2021 - birthyear) * 365;
 var h1 = document.createElement('h1');
 var textanswer = document.createTextNode('you are' + ageInDayss+ 'days old');
