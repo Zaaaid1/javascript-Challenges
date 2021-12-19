@@ -2,10 +2,10 @@
 
 
 function ageInDays(){
-var birthyear = prompt("what year you were born");
-var ageInDayss = (2021 - birthyear) * 365;
-var h1 = document.createElement('h1');
-var textanswer = document.createTextNode('you are' + ageInDayss+ 'days old');
+const birthyear = prompt("what year you were born");
+const ageInDayss = (2021 - birthyear) * 365;
+const h1 = document.createElement('h1');
+const textanswer = document.createTextNode('you are' + ageInDayss+ 'days old');
 h1.setAttribute( 'id' ,'ageInDays');
 h1.appendChild(textanswer);
 document.getElementById('flex-box-result').appendChild(h1);
